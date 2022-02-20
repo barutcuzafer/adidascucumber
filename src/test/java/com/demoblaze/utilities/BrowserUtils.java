@@ -1,4 +1,4 @@
-package com.vytrack.utilities;
+package com.demoblaze.utilities;
 
 
 import org.apache.commons.io.FileUtils;
@@ -8,7 +8,6 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 
 import java.io.File;
 import java.io.IOException;
@@ -400,6 +399,14 @@ public class BrowserUtils {
      */
     public static void waitForPresenceOfElement(By by, long time) {
         new WebDriverWait(Driver.get(), time).until(ExpectedConditions.presenceOfElementLocated(by));
+    }
+
+    public static List<String>getElementsTextByOscar(List<WebElement>list){
+        List<String>elemTexts=new ArrayList<>();
+        for (WebElement webElement : list) {
+            elemTexts.add(webElement.getText());
+        }
+        return elemTexts;
     }
 
 

@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: parallel one functionality
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 26.021 s <<< FAILURE! - in parallel one functionality
+Verify all the products exist in the products pages(parallel one functionality)  Time elapsed: 26.021 s  <<< FAILURE!
+java.lang.AssertionError: List of Products are NOT as expected expected:<[Sony vaio i5, Sony vaio i7, MacBook air]> but was:<[Sony vaio i5, Sony vaio i7, MacBook air, Dell i7 8gb, 2017 Dell 15.6 Inch, MacBook Pro]>
+
