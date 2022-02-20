@@ -74,7 +74,7 @@ public class Driver {
                     ChromeOptions chromeOptions=new ChromeOptions();
                     chromeOptions.setCapability("platform", Platform.ANY);
                     try {
-                        driverPool.set(new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),chromeOptions));
+                        driverPool.set(new RemoteWebDriver(new URL("https://oauth-barutcuzafer1-a466e:820c2b1c-3cec-4c03-b616-dbe02486fddf@ondemand.eu-central-1.saucelabs.com:443/wd/hub"),chromeOptions));
                     } catch (MalformedURLException e) {
 
                         e.printStackTrace();

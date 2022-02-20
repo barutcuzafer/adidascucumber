@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>Cucumber HTML Reports</td>
         <td>1</td>
-      <td>20 Feb 2022, 18:37</td>
+      <td>20 Feb 2022, 22:23</td>
     </tr>
   </tbody>
 </table>
@@ -129,19 +129,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">Adidas Order Placement Functionalities</td>
+          <td      class="passed"    >6</td>
           <td >0</td>
-          <td      class="failed"    >1</td>
-          <td     class="skipped"   >5</td>
+          <td >0</td>
           <td >0</td>
           <td >0</td>
           <td class="total">6</td>
 
+          <td  class="passed"    >1</td>
           <td >0</td>
-          <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="2192031000">2.192</td>
-          <td class="failed">Failed</td>
+          <td class="duration" data-value="21942373000">21.942</td>
+          <td class="passed">Passed</td>
         </tr>
         </tbody>
 
@@ -173,7 +173,7 @@ $(document).ready(function() {
 </div>
 
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Feature</span>
   <span class="name">Adidas Order Placement Functionalities</span>
 
@@ -193,12 +193,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">2.192</span>
+  <span class="lead-duration duration">21.942</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario</span>
   <span class="name">Placing a successful order</span>
 
@@ -209,7 +209,7 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details  in ">
+  <div id="element-1" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
@@ -231,7 +231,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
               <span class="location name">com.demoblaze.step_definitions.Hooks.setUp()</span>
 
-  <span class="lead-duration duration">17.641</span>
+  <span class="lead-duration duration">10.955</span>
 
           </div>
 
@@ -248,9 +248,9 @@ $(document).ready(function() {
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-3">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-3">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -260,15 +260,15 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-3" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-3" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
-<div class="brief step-name-When failed">
+<div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
   <span class="name">User adds some <span class="argument">&quot;Sony vaio i5&quot;</span> from <span class="argument">&quot;Laptops&quot;</span></span>
 
-  <span class="lead-duration duration">2.191</span>
+  <span class="lead-duration duration">3.407</span>
 
 </div>
 
@@ -276,41 +276,6 @@ $(document).ready(function() {
 
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
-          <a>org.openqa.selenium.StaleElementReferenceException:</a>
-      </div>
-      <div id="msg-4" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
-  (Session info: chrome=98.0.4758.102)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'Zafer-MacBook-Pro.local', ip: 'fe80:0:0:0:c28:dec7:9dc4:acc3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.0.1', java.version: '17.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: /var/folders/zs/t71z7bs929n...}, goog:chromeOptions: {debuggerAddress: localhost:50452}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: b39d1254c6602250dfafa72f05bfe64c
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at com.demoblaze.pages.ProductPage.navigateTo(ProductPage.java:21)
-	at com.demoblaze.step_definitions.PurchaseSetups.user_adds_some_from(PurchaseSetups.java:26)
-	at &#10045;.User adds some &quot;Sony vaio i5&quot; from &quot;Laptops&quot;(file:///Users/zaferbarutcu/IdeaProjects/AdidasCucumberFramework/src/test/resources/features/purchase.feature:6)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -326,11 +291,11 @@ Session ID: b39d1254c6602250dfafa72f05bfe64c
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">User adds some <span class="argument">&quot;Dell i7 8gb&quot;</span> from <span class="argument">&quot;Laptops&quot;</span></span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">2.482</span>
 
 </div>
 
@@ -353,11 +318,11 @@ Session ID: b39d1254c6602250dfafa72f05bfe64c
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">User Navigates to cart and removes <span class="argument">&quot;Dell i7 8gb&quot;</span></span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">11.486</span>
 
 </div>
 
@@ -380,11 +345,11 @@ Session ID: b39d1254c6602250dfafa72f05bfe64c
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">User clicks on place order</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">1.120</span>
 
 </div>
 
@@ -407,11 +372,11 @@ Session ID: b39d1254c6602250dfafa72f05bfe64c
       <div class="step">
 
 
-<div class="brief step-name-And skipped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
   <span class="name">User fills the form for order and clicks on purchase button</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">2.685</span>
 
 </div>
 
@@ -434,11 +399,11 @@ Session ID: b39d1254c6602250dfafa72f05bfe64c
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">Order ID and Order amount should be as expected</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.760</span>
 
 </div>
 
@@ -465,7 +430,7 @@ Session ID: b39d1254c6602250dfafa72f05bfe64c
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-5">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -477,13 +442,13 @@ Session ID: b39d1254c6602250dfafa72f05bfe64c
 
     </div>
 
-    <div id="after-5" class="inner-level collapse collapsable-details ">
+    <div id="after-4" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.demoblaze.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">2.438</span>
+  <span class="lead-duration duration">0.272</span>
 
           </div>
 
@@ -492,21 +457,6 @@ Session ID: b39d1254c6602250dfafa72f05bfe64c
 
 
 
-  <div class="embeddings inner-level">
-  <div class="embedding indention">
-    <div data-toggle="collapse" data-target="#embedding-6" class="collapsable-control">
-      <a>screenshot</a>
-      <a href="embeddings/embedding_-87913327.png" download target="_blank">
-        <span class="download-button glyphicon glyphicon-download-alt"></span>
-      </a>
-    </div>
-    <div id="embedding-6" class="collapse collapsable-details ">
-      <div class="embedding-content">
-        <img src="embeddings/embedding_-87913327.png">
-      </div>
-    </div>
-  </div>
-  </div>
 
         </div>
     </div>

@@ -27,7 +27,7 @@
 <div id="content">
 </div>
 <script>
-window.CUCUMBER_MESSAGES = [{"meta":{"protocolVersion":"17.1.1","implementation":{"name":"cucumber-jvm","version":"7.2.3"},"runtime":{"name":"OpenJDK 64-Bit Server VM","version":"17.0.1+12-39"},"os":{"name":"Mac OS X"},"cpu":{"name":"x86_64"}}},{"testRunStarted":{"timestamp":{"seconds":1645371459,"nanos":724857000}}},{"testRunFinished":{"success":true,"timestamp":{"seconds":1645371459,"nanos":763048000}}}];
+window.CUCUMBER_MESSAGES = [{"meta":{"protocolVersion":"17.1.1","implementation":{"name":"cucumber-jvm","version":"7.2.3"},"runtime":{"name":"Java HotSpot(TM) 64-Bit Server VM","version":"11.0.12+8-LTS-237"},"os":{"name":"Mac OS X"},"cpu":{"name":"x86_64"}}},{"testRunStarted":{"timestamp":{"seconds":1645384589,"nanos":368593000}}},{"testRunFinished":{"success":true,"timestamp":{"seconds":1645384589,"nanos":395205000}}}];
 </script>
 <script>
 /*! For license information please see main.js.LICENSE.txt */
