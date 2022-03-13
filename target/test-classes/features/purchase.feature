@@ -30,7 +30,7 @@ Feature: Adidas Order Placement Functionalities
       | Apple monitor 2  |
       | ASUS Full HD     |
 
-
+@www
   Scenario Outline:
     Then User adds some "<differentLaptops>" from "Laptops"
 
